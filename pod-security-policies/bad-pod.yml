@@ -16,7 +16,7 @@ spec:
       - securityContext:
           runAsUser: 0
         name: hello-2
-        image: wardviaene/http-echo
+        image: sipadocker/http-echo
         env:
         - name: TEXT
           value: "hello world 2"
