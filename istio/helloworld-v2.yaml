@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: wardviaene/http-echo
+        image: sipadocker/http-echo
         env:
         - name: TEXT
           value: hello, this is v2
