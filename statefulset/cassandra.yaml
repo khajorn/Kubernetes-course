@@ -98,7 +98,7 @@ metadata:
 provisioner: kubernetes.io/aws-ebs
 parameters:
   type: gp2
-  zone: eu-west-1a
+  zone: ap-southeast-1a
 ---
 apiVersion: v1
 kind: Service
